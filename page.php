@@ -19,7 +19,7 @@ Otaku Talks
     <div class="centre">
 
     <?php
-include 'general\tableau.php';
+        include 'general\tableau.php';
 
 $id = $_GET['id'];
 

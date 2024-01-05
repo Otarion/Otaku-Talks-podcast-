@@ -18,6 +18,11 @@ Otaku Talks
 
     <div class="centre">
 
+        <?php
+        include 'general.php';
+        echo $podcast [0]['titre'];
+        ?>
+
     </div>
 
     <div class="footer">

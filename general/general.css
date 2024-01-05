@@ -4,6 +4,7 @@ body, html{
     justify-content: center;
     margin: 0;
     padding: 0;
+    height: auto;
     flex-direction: column;
 }
 
@@ -29,14 +30,24 @@ body, html{
 
 .centre{
     background-color: white;
-    height: calc(100vh - 14rem); 
+    height: calc(370vh - 14rem); 
     width: 66.66%;
     margin: 0 auto;
+    padding: 1rem;
+}
+
+/* ARTICLE */
+
+.article {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(99, 40, 11);
+    border-radius: 1rem;
 }
 
 /* FOOTER */
 .footer{
-    background-color: rgba(146, 162, 247, 0.832);
+    background-color: rgba(146, 210, 247, 0.832);
     display: flex;
     position: relative;
     bottom: 0;

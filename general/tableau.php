@@ -64,11 +64,13 @@ array(
 );
 
 foreach ($podcasts as $podcast) {
-    echo '<div>'.
-        '<p>' . $podcast['titre'] . '</p><br>'. 
-        '<p>'.$podcast['description'] . '</p><br>'.
-        '<p>'.$podcast['date'].'</p>' .
+    echo '<div class="article">'.
+        '<p class="titre">' . '<img src="image\sakura.png" style="height: 1rem;">'.' '.
+        $podcast['titre'] . '</p>'. 
+        '<p class="description">'.$podcast['description'] . '</p>'.
+        '<img src="image\play.svg" style="height: 2rem;">'.
+        '<p class="date">'.$podcast['date'].'</p>' .
         '</div>';
- }
+ } 
  
 ?>

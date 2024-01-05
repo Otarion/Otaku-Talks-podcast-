@@ -30,7 +30,7 @@ body, html{
 
 .centre{
     background-color: white;
-    height: calc(340vh - 14rem); 
+    height: calc(375vh - 14rem); 
     width: 66.66%;
     margin: 0 auto;
     padding: 1rem;
@@ -91,6 +91,30 @@ body, html{
     margin: 0.5rem;
 }
 
+/* ERREUR */
+
+.erreur{
+    font-family: 'Zen Loop', cursive;
+    text-align: center;
+    font-size: large;
+}
+
+.text-erreur{
+    font-weight: bold;
+}
+
+.retour-bouton{
+    font-family: 'Zen Loop', cursive;    
+    font-size: large;
+    cursor: pointer;
+}
+
+/* AUDIO */
+
+.audio{
+    display: none
+}
+
 /* RESPONSIVE */
 
 @media (min-width:800px) {
@@ -98,6 +122,10 @@ body, html{
     .banniere{
         height: 12rem;
         font-size: 10rem;
+    }
+
+    .centre{
+        height: calc(340vh - 14rem); 
     }
 
    }

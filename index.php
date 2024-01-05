@@ -25,6 +25,10 @@ Otaku Talks
 
     </div>
 
+    <audio autoplay loop>
+        <source src="Fall Colors - ann annie.mp3" type="audio/mpeg" class="audio">
+    </audio>
+
     <div class="footer">
 
         <div class="rs">

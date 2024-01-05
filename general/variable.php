@@ -1,8 +1,9 @@
 <?php
 
-foreach ($podcasts as $key => $podcast) {
+foreach ($podcasts as $podcast) {
+    $id = $podcast['id'];
     echo '<div class="article">'.
-        '<a href="page.php?id='.$key.'"><p class="titre" style="cursor: pointer;">' . '<img src="image\sakura.png" style="height: 1rem;">'.' '.
+        '<a href="page.php?id='.$id.'"><p class="titre" style="cursor: pointer;">' . '<img src="image\sakura.png" style="height: 1rem;">'.' '.
         $podcast['titre'] . '</p></a>'. 
         '<p class="description">'.$podcast['description'] . '</p>'.
         '<img src="image\play.svg" style="height: 2rem; cursor: pointer;">'.

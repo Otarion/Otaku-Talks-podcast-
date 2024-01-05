@@ -19,20 +19,34 @@ Otaku Talks
     <div class="centre">
 
     <?php
-        include 'general\tableau.php';
+include 'general\tableau.php';
 
 $id = $_GET['id'];
+$podcastFound = false;
 
 foreach ($podcasts as $podcast) {
  if ($podcast['id'] == $id) {
  echo '<div class="article">'.
-      '<p class="titre">' . $podcast['titre'] . '</p><br>'. 
-      '<p class="description">'.$podcast['description'] . '</p><br>'.
-      '<p class="date">'.$podcast['date'].'</p>' .
-      '</div>';
+ '<p class="titre" style="cursor: pointer;">' . '<img src="image\sakura.png" style="height: 1rem;">'.' '.
+ $podcast['titre'] . '</p></a>'. 
+ '<p class="description">'.$podcast['description'] . '</p>'.
+ '<img src="image\play.svg" style="height: 2rem; cursor: pointer;">'.
+ '<p class="date">'.$podcast['date'].'</p>' .
+ '</div>'.
+ '<button onclick="window.location.href=\'index.php\'" class="retour-bouton">Retour à la page d\'accueil</button>';
+ $podcastFound = true;
  break;
  }
 }
+
+if (!$podcastFound) {
+    echo'<div class="erreur">'.
+    '<p class="text-erreur">'."L'article que vous cherchez n'existe pas. Retourner sur la page d'accueil.".'</p>'.
+    '<button onclick="window.location.href=\'index.php\'" class="retour-bouton">Retour à la page d\'accueil</button>'
+    .'</div>',
+    exit();
+   }
+
 ?>
 
     </div>

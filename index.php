@@ -19,8 +19,7 @@ Otaku Talks
     <div class="centre">
 
         <?php
-        include 'general.php';
-        echo $podcast [0]['titre'];
+        include 'general\tableau.php';
         ?>
 
     </div>
@@ -28,9 +27,9 @@ Otaku Talks
     <div class="footer">
 
         <div class="rs">
-            <img src="/image/insta.svg" class="logo">
-            <img src="/image/x-t.svg" class="logo">
-            <img src="/image/youtube.svg" class="logo">
+            <img src="image\insta.svg" class="logo">
+            <img src="image\x-t.svg" class="logo">
+            <img src="image\youtube.svg" class="logo">
         </div>
 
         <div class="regle">

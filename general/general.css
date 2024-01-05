@@ -10,7 +10,7 @@ body, html{
 /* HEADER */
 
 .banniere{
-    background-image: url("/image/banniere.png");
+    background-image: url("image\banniere.png");
     background-repeat: no-repeat;
     height: 8rem;
     width: 100%;

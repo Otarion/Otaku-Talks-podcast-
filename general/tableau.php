@@ -3,7 +3,7 @@
 $podcasts = array(
     
     array(
-    'titre' => "La place du manga dans la ittérature",
+    'titre' => "La place du manga dans la littérature",
     'description' => "Explorez avec nous la place grandissante du manga dans le monde de la littérature. À travers des analyses littéraires et des entrevues avec des experts, plongez dans la fusion unique de l'art narratif et graphique qui fait du manga une force majeure dans la littérature moderne.",
     'date'=> "15 septembre 2023",
     ),
@@ -66,7 +66,8 @@ array(
 foreach ($podcasts as $podcast) {
     echo '<div>'.
         '<p>' . $podcast['titre'] . '</p><br>'. 
-        '<p>'.$podcast['description'] . '</p><br>'. 
+        '<p>'.$podcast['description'] . '</p><br>'.
+        '<p>'.$podcast['date'].'</p>' .
         '</div>';
  }
  

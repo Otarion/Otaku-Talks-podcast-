@@ -20,6 +20,7 @@ Otaku Talks
 
         <?php
         include 'general\tableau.php';
+        include'general\variable.php';
         ?>
 
     </div>

@@ -18,6 +18,23 @@ Otaku Talks
 
     <div class="centre">
 
+    <?php
+include 'general\tableau.php';
+
+$id = $_GET['id'];
+
+foreach ($podcasts as $podcast) {
+ if ($podcast['id'] == $id) {
+ echo '<div class="article">'.
+      '<p class="titre">' . $podcast['titre'] . '</p><br>'. 
+      '<p class="description">'.$podcast['description'] . '</p><br>'.
+      '<p class="date">'.$podcast['date'].'</p>' .
+      '</div>';
+ break;
+ }
+}
+?>
+
     </div>
 
     <div class="footer">

@@ -11,7 +11,7 @@ body, html{
 /* HEADER */
 
 .banniere{
-    background-image: url("image/banniere.png");
+    background-image: url("../image/banniere.png");
     background-repeat: no-repeat;
     height: 8rem;
     width: 100%;
@@ -30,7 +30,7 @@ body, html{
 
 .centre{
     background-color: white;
-    height: calc(370vh - 14rem); 
+    height: calc(340vh - 14rem); 
     width: 66.66%;
     margin: 0 auto;
     padding: 1rem;
@@ -43,6 +43,19 @@ body, html{
     padding: 0.5rem;
     border: 2px solid rgb(99, 40, 11);
     border-radius: 1rem;
+    font-family: 'Zen Loop', cursive;
+}
+
+.titre{
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.date{
+    font-size: smaller;
+    color: gray;
 }
 
 /* FOOTER */

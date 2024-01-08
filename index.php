@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap" rel="stylesheet">
-    <script src="general/general.js"></script>
     <title>Otaku Talks - Page d'accueil</title>
 </head>
 <body>

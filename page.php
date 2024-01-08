@@ -25,7 +25,7 @@ $podcastFound = false;
 
 foreach ($podcasts as $podcast) {
  if ($podcast['id'] == $id) {
- echo '<div class="article">'.
+ echo '<div class="article" style="border: none;">'.
  '<p class="titre" style="cursor: pointer;">' . '<img src="image\sakura.png" style="height: 1rem;">'.' '.
  $podcast['titre'] . '</p></a>'. 
  '<p class="description">'.$podcast['description'] . '</p>'.

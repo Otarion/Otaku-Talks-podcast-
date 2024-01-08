@@ -41,6 +41,7 @@ foreach ($podcasts as $podcast) {
 
 if (!$podcastFound) {
     echo'<div class="erreur">'.
+    '<p class="text-erreur"><b>Erreur 404</b></p>'.
     '<p class="text-erreur">'."L'article que vous cherchez n'existe pas. Retourner sur la page d'accueil.".'</p>'.
     '<button onclick="window.location.href=\'index.php\'" class="retour-bouton">Retour à la page d\'accueil</button>'
     .'</div>',

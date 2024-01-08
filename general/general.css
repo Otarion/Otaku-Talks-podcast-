@@ -53,6 +53,10 @@ body, html{
     text-decoration: none;
 }
 
+.invites{
+    font-weight: bolder;
+}
+
 .date{
     font-size: smaller;
     color: gray;

@@ -30,6 +30,7 @@ foreach ($podcasts as $podcast) {
  $podcast['titre'] . '</p></a>'. 
  '<p class="description">'.$podcast['description'] . '</p>'.
  '<img src="image\play.svg" style="height: 2rem; cursor: pointer;">'.
+ '<p class="invites"><u>Invités:</u> ' .$podcast['invites'].'</p>'.
  '<p class="date">'.$podcast['date'].'</p>' .
  '</div>'.
  '<button onclick="window.location.href=\'index.php\'" class="retour-bouton">Retour à la page d\'accueil</button>';
